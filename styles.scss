@@ -1,0 +1,35 @@
+$light: #455a64;
+$primary: #2962ff;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.bg-input {
+  background-color: #f0f0f0;
+}
+
+.input {
+  height: 50px;
+}
+
+.background {
+  background-image: url("a0992afa9c1f2b47db51d11f69c897f3.jpg");
+  width: 66vw;
+  height: 100vh;
+  margin: 0;
+}
+
+/*
+@media screen and (max-width: 576px){
+  .login {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 576px){
+  .login {
+    width: 33vw;
+    height: 100vh;
+  }
+}
+
+ */
