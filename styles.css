@@ -11148,5 +11148,16 @@ textarea.form-control-lg {
 }
 
  */
+.valid {
+  color: forestgreen;
+  width: 50%;
+  text-align: start;
+}
+
+.invalid {
+  color: red;
+  width: 50%;
+  text-align: start;
+}
 
 /*# sourceMappingURL=styles.css.map */
