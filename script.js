@@ -1,6 +1,7 @@
 window.onload = function () {
-    addEventListener("click", function () {
-        let d = document.getElementById("email")
-        if (d.innerHTML.length > 3) document.getElementById("rightEmail").innerText = "nice"
+    let button = document.getElementById("button")
+    button.addEventListener("click", function () {
+        let emailInput = document.getElementById("email")
+        if (emailInput.value.length > 3) document.getElementById("rightEmail").innerText = "nice"
     })
 }
